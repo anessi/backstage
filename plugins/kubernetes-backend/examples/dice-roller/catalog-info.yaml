@@ -7,7 +7,8 @@ metadata:
     - go
   annotations:
     'backstage.io/kubernetes-id': dice-roller
-    'argocd/app-name': dice-roller
+    'argocd/app-name': accounts
+    'argocd/app-namespace': aar-dev
 spec:
   type: service
   lifecycle: production
