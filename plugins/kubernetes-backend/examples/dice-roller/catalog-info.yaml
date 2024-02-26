@@ -10,6 +10,7 @@ metadata:
     'argocd/app-name': accounts
     'argocd/app-namespace': aar-dev
     'jenkins.io/job-full-name': runtime-build:clx-gloo-settings-chart
+    sonarqube.org/project-key: business-banking:modules:bba-shared:bba-shared-lib
 spec:
   type: service
   lifecycle: production
