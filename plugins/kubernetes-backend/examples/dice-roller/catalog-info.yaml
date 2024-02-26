@@ -9,7 +9,7 @@ metadata:
     'backstage.io/kubernetes-id': dice-roller
     'argocd/app-name': accounts
     'argocd/app-namespace': aar-dev
-    jenkins.io/job-full-name: clx-gloo-settings-chart
+    jenkins.io/job-full-name: runtime-build:clx-gloo-settings-chart
 spec:
   type: service
   lifecycle: production
